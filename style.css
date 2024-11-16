@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom, #000428, #444444,#333333,#2F4F4F,#2E2B47,#4B0082); /* dark gradient */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio {
+  width: 90%;
+  max-width: 1200px;
+  background: #111; /* Dark background */
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ff4500; /* Red color for hover effect */
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.image {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+  
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff4500, #111); /* Red and dark gradient */
+  z-index: 1;
+}
+
+.image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+/* Text Content */
+.details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.details h1 span {
+  color: #ff4500; /* Red color for highlighted text */
+}
+
+.details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.details h2 span {
+  color: #ff4500; /* Red color for highlighted text */
+}
+
+.details p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff4500; /* Red color for hover effect */
+}
+
+.hire-me {
+  padding: 10px 20px;
+  background: #ff4500; /* Red button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.hire-me:hover {
+  background: #cc3700; /* Darker red on hover */
+}
+
